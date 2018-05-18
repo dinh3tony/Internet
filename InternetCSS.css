@@ -56,8 +56,9 @@
 }
 #question
 {
-    height: 185px;
+    height: 190px;
     border-bottom: 1px red solid;
+    padding-top: 10px;
 }
 #question #q2
 {
@@ -83,7 +84,7 @@ p span
     font-weight: bold;
     width: 100%;
     border-radius: 7px;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 #more
 {
@@ -135,4 +136,47 @@ button span
     width: 75%;
     min-height: 600px;
     display: inline-block;
+    margin-left:30px;
+}
+#main_head
+{
+    width: 100%;
+    display: inline-block;
+}
+#main #phone
+{
+    width: 50px;
+    height: 50px;
+}
+#house
+{
+    width:15px; 
+    display: inline-block;
+}
+#main_head span
+{
+    display:inline-block;
+    width: 100px;
+    margin-left: 2px;
+}
+#numbers
+{
+    display:inline-block;
+    width: 30%;
+    align-content: right;
+    vertical-align: top;
+    position: relative;
+    left: 125px;
+    text-align: right;
+}
+h1 {
+    font-size: 11px;
+}
+h2 {
+    font-size: 27px;
+    color: teal;
+    font-weight: bolder; 
+}
+h3 {
+    font-size: 11px;
 }
