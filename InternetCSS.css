@@ -7,7 +7,7 @@
 .container
 {
     width: 970px;
-    background-color: plum;
+    background-color: white;
 }
 #header
 {
@@ -68,7 +68,7 @@
 {
     font-size: 14px;
 }
-p span
+#question span
 {
     color:blue;
 }
@@ -133,7 +133,7 @@ button span
 }
 #main
 {
-    width: 75%;
+    width: 77%;
     min-height: 600px;
     display: inline-block;
     margin-left:30px;
@@ -142,22 +142,34 @@ button span
 {
     width: 100%;
     display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
 }
 #main #phone
 {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 405px;
+    margin-top: 5px;
 }
 #house
 {
     width:15px; 
     display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
 }
 #main_head span
 {
     display:inline-block;
     width: 100px;
     margin-left: 2px;
+    vertical-align: top;
+    margin-top: 5px;
+    font-size: 14px;
+    color: blue;
+    font-weight: bolder;
 }
 #numbers
 {
@@ -166,17 +178,42 @@ button span
     align-content: right;
     vertical-align: top;
     position: relative;
-    left: 125px;
+    left: 345px;
     text-align: right;
 }
-h1 {
+#main_head h1 {
     font-size: 11px;
 }
-h2 {
+#main_head h2 {
     font-size: 27px;
     color: teal;
-    font-weight: bolder; 
+    font-weight: 900; 
 }
-h3 {
+#main_head h3 {
     font-size: 11px;
+}
+#main_para ul
+{
+    margin-left: 35px;
+    font-size: 15px;
+}
+#main_para li
+{
+    margin: 5px;
+}
+#main_para img
+{
+    width: 220px;
+    height: 90px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#main_mid ol
+{
+    margin-left: 35px;
+    font-size: 15px;
+}
+#main_mid li
+{
+    margin: 5px;
 }
